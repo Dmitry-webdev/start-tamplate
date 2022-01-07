@@ -1,0 +1,67 @@
+.heading {
+	background-image: url(../img/heading/headingcoffe.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top: 147px;
+	padding-bottom: 166px;
+	&__container{
+	display: flex;
+	justify-content: space-between;
+	}
+	&__wrapper{
+		max-width: 530px;
+	}
+  &__title {
+		font-size: 72px;
+		line-height: 130%;
+		margin-bottom: 32px;
+	}
+  &__subtitle {
+		font-family: "Urbanist-M";
+		font-size: 20px;
+		line-height: 180%;
+		text-transform: capitalize;
+		color: rgba(255, 255, 255, 0.8);
+		margin-bottom: 64px;
+	}
+  &__btn {
+		font-family: "Inter-B";
+		background-color: var(--antique);
+		padding: 24px 40px;
+		font-size: 18px;
+		line-height: 22px;
+		text-transform: uppercase;
+	}
+}
+.heading-video {
+align-self: flex-end;
+ color: var(--white);
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-bottom: -8px;
+}
+.heading-video {	
+	&__icon img{
+		width: 24px;
+		height: 24px;
+	}
+  &__icon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+		width: 70px;
+		height: 70px;
+		border: 1px solid var(--white);
+		border-radius: 50%;
+		margin-bottom: 20px;
+	}
+  &__text {
+		font-family: "Inter-R";
+		font-size: 16px;
+		line-height: 19px;
+		text-transform: uppercase;
+	}
+}

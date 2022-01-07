@@ -1,0 +1,23 @@
+.about {
+	padding: 140px 0;
+  &__wrapper {
+		display: flex;
+	}
+}
+.about-banner {
+  &__title {
+		font-size: 24px;
+		line-height: 30px;
+		margin-bottom: 24px;
+	}
+	&__img{
+		width: 366px;
+		height: 420px;
+	}
+}
+.about-banner__title .decor-color{
+	padding-right: 13px;
+}
+.about-banner:not(:last-child){
+	padding-right: 36px;
+}
