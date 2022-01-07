@@ -1,0 +1,72 @@
+.header {
+	font-family: "Inter-R";
+	font-size: 18px;
+	line-height: 22px;
+	padding: 50px 0;
+  &__container {
+		max-width: 1350px;
+		margin: 0 auto;
+		padding: 0 15px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+.nav {
+  &__menu {
+		display: flex;
+		justify-content: space-between;
+		
+	}
+  &__item:not(:last-child) {
+		padding-right: 48px;
+	}
+  &__link {
+		color: var(--white);
+		transition: color 0.3s;
+		&:hover{
+			color: var(--antique);
+		}
+	}
+}
+.logo {
+	width: 72px;
+	height: 60px;
+	margin-right: 71px;
+}
+.nav-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  &__list {
+		display: flex;
+		justify-content: space-between;
+		padding-right: 48px;
+	}
+	&__item:not(:last-child) {
+		padding-right: 48px;
+	}
+  &__link {
+		color: var(--white);
+		transition: color 0.3s;	
+		
+		&:hover{
+			color: var(--antique);
+		}
+	}
+	&__search, &__shopbag{
+		width: 30px;
+		height: 30px;
+		background-repeat: no-repeat;
+		background-size: 30px 30px;
+	}
+	&__search{
+		background-image: url(../img/header/search.svg);
+		background-position: left;
+		padding-right: 78px;
+	}
+	&__shopbag{
+		background-image: url(../img/header/shopbag.svg);
+		background-position: center;
+	}
+}
