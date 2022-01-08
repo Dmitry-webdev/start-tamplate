@@ -1,0 +1,49 @@
+.history {
+	margin-bottom: 140px;
+  &__wrapper {
+		display: grid;
+		gap: 32px;
+		grid-template-areas:
+		"img1 img3 text text"
+		"img1 img3 text text"
+		"img2 img3 text text"
+		"img2 img3 text text";
+	}
+}
+.history {
+  &__img1 {
+		grid-area: img1;
+	}
+  &__img2 {
+		grid-area: img2;
+	}
+  &__img3 {
+		grid-area: img3;
+	}
+}
+.history-text {
+	width: 510px;
+	padding: 105px 56px 115px 56px;	
+	background: #1C1814;
+	grid-area: text;
+  &__title {
+		font-family: "Urbanist-M";
+		font-weight: 600;
+		font-size: 18px;
+		line-height: 22px;
+		color: var(--antique);
+		margin-bottom: 12px;
+	}
+  &__subtitle {
+		font-size: 48px;
+		line-height: 130%;
+		margin-bottom: 36px;
+	}
+  &__description {
+		font-family: "Urbanist-M";
+		font-size: 16px;
+		line-height: 180%;
+		text-transform: capitalize;
+		opacity: 0.8;
+	}
+}
