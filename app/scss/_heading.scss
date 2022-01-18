@@ -11,7 +11,7 @@
 	justify-content: space-between;
 	}
 	&__wrapper{
-		max-width: 530px;
+		max-width: 550px;
 	}
   &__title {
 		font-size: 72px;
@@ -19,7 +19,7 @@
 		margin-bottom: 32px;
 	}
   &__subtitle {
-		font-family: "Urbanist-M";
+		font-family: "Urbanist-M", sans-serif;
 		font-size: 20px;
 		line-height: 180%;
 		text-transform: capitalize;
@@ -27,7 +27,7 @@
 		margin-bottom: 64px;
 	}
   &__btn {
-		font-family: "Inter-B";
+		font-family: "Inter-B", sans-serif;
 		background-color: var(--antique);
 		padding: 24px 40px;
 		font-size: 18px;
@@ -65,7 +65,7 @@ align-self: flex-end;
 		margin-bottom: 20px;
 	}
   &__text {
-		font-family: "Inter-R";
+		font-family: "Inter-R", sans-serif;
 		font-size: 16px;
 		line-height: 19px;
 		text-transform: uppercase;
